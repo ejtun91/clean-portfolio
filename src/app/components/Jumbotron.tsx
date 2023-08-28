@@ -27,7 +27,7 @@ const Jumbotron = () => {
             data-aos-duration="400"
             className="md:text-6xl text-3xl text-gray-400"
           >
-            Let's Build Web Stories Together.
+            Let&apos;s Build Web Stories Together.
           </h1>
         </div>
         <p
@@ -36,7 +36,7 @@ const Jumbotron = () => {
           data-aos-duration="500"
           className="md:text-base text-sm text-gray-400 md:w-[65%] leading-[1.7em] tracking-wide"
         >
-          I'm Fullstack developer with more focus on Frontend Engineering.
+          I&apos;m Fullstack developer with more focus on Frontend Engineering.
           Beyond pixels, I embrace continuous learning to stay at the forefront
           of evolving web technologies. My passion lies not only in lines of
           code but in the impact my work makes on enhancing user interactions

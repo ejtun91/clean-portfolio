@@ -32,7 +32,8 @@ const About = () => {
               digital products they rely on.
             </p>
             <p>
-              Some technologies I've been working with for quite a while now:
+              Some technologies I&apos;ve been working with for quite a while
+              now:
             </p>
           </div>
           <div className="stack text-gray-400 text-sm flex w-full items-center gap-32">

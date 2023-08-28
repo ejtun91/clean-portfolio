@@ -9,14 +9,16 @@ const Contact = () => {
       data-aos="fade-up"
     >
       <div className="contact-wrapper  items-center flex flex-col justify-center container mx-auto lg:px-72 px-5">
-        <div className="span subtitle text-cyan-300 mb-3">03. What's Next?</div>
+        <div className="span subtitle text-cyan-300 mb-3">
+          03. What&apos;s Next?
+        </div>
         <h2 className="mb-6 text-5xl font-semibold text-gray-300">
           Get In Touch
         </h2>
         <p className="desc text-center text-gray-400 md:w-[70%]">
-          If you have any questions, don't hesitate to ask. I've been very busy
-          lately and I can't promise to answer you right away, but I'll do my
-          best!
+          If you have any questions, don&apos;t hesitate to ask. I&apos;ve been
+          very busy lately and I can&apos;t promise to answer you right away,
+          but I&apos;ll do my best!
         </p>
         <div className="message-container relative mt-10 text-center">
           <a
