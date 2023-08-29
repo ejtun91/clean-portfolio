@@ -37,25 +37,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        {disableSpinner ? (
-          <SplashScreen />
-        ) : (
-          <>
-            {" "}
-            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-            <LinksLeft />
-            <main
-              onClick={() => setMenuOpen(false)}
-              className={`${
-                menuOpen ? "z-30 relative blur-sm md:blur-none" : ""
-              } `}
-            >
-              {children}
-            </main>{" "}
-            <LinksRight />
-            <Footer />
-          </>
-        )}
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <LinksLeft />
+        <main
+          onClick={() => setMenuOpen(false)}
+          className={`${menuOpen ? "z-30 relative blur-sm md:blur-none" : ""} `}
+        >
+          {children}
+        </main>{" "}
+        <LinksRight />
+        <Footer />
       </body>
     </html>
   );
