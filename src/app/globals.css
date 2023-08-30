@@ -9,3 +9,20 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+:root {
+  scrollbar-color: rgb(168, 167, 167) #f1f1f1 !important;
+  scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(168, 167, 167);
+}

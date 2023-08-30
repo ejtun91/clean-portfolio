@@ -9,7 +9,7 @@ const About = () => {
       data-aos-easing="linear"
       data-aos="fade-up"
     >
-      <div className="about-wrapper items-center flex md:flex-row flex-col gap-20 justify-center container mx-auto lg:px-72 px-5">
+      <div className="about-wrapper items-center flex md:flex-row flex-col gap-20 justify-center container mx-auto lg:px-64 px-5">
         <div className="left flex-[60%] flex flex-col gap-10">
           <div className="subtitle flex gap-2  items-center">
             <span className="text-cyan-300 mr-2 text-xl self-end">01.</span>

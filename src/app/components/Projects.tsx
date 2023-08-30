@@ -70,7 +70,7 @@ const Projects = () => {
 
   return (
     <section id="work" className="projects-container py-[100px]">
-      <div className="projects-wrapper items-center flex flex-col gap-20 justify-center container mx-auto lg:px-60 px-4">
+      <div className="projects-wrapper items-center flex flex-col gap-20 justify-center container mx-auto lg:px-56 px-4">
         <div
           className="top flex w-full"
           data-aos-easing="linear"
