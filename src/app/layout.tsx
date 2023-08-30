@@ -1,11 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import LinksLeft from "./components/LinksLeft";
-import LinksRight from "./components/LinksRight";
-import SplashScreen from "./components/SplashScreen";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -17,6 +12,14 @@ export const metadata: Metadata = {
   title: "Antonio Knezovic",
   description:
     "This is my portfolio website, where you can contact me and check my latest work.",
+  icons: [
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/favicon.png",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -26,6 +29,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className={poppins.className}>{children}</body>
     </html>
   );

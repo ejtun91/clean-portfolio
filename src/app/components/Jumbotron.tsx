@@ -3,7 +3,7 @@ import React from "react";
 const Jumbotron = () => {
   return (
     <section className="jumbotron flex items-center justify-center h-[100vh] min-h-[100vh]">
-      <div className="jumbotron-wrapper flex flex-col md:gap-6 gap-3 justify-center container mx-auto lg:px-64 px-4">
+      <div className="jumbotron-wrapper flex flex-col md:gap-6 gap-3 justify-center container mx-auto lg:px-60 px-4">
         <span
           data-aos-easing="linear"
           data-aos="fade-up"

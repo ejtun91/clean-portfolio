@@ -20,9 +20,9 @@ const About = () => {
           </div>
           <div className="desc flex flex-col gap-4 text-gray-400">
             <p>
-              Hello there! My name is Antonio. Since high school, I have always
-              been fascinated by computers and technology. My journey began when
-              I wrote my first static website as I was about to go to
+              Hello there! My name is Antonio. Since secondary school, I have
+              always been fascinated by computers and technology. My journey
+              began when I wrote my first static website as I was about to go to
               university.
             </p>
             <p>

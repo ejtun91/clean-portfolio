@@ -3,7 +3,9 @@ import anime from "animejs";
 import React, { useEffect, useState } from "react";
 
 const SplashScreen = () => {
+  const [loaded, setLoaded] = useState<boolean>(false);
   useEffect(() => {
+    setLoaded(true);
     const anim = anime.timeline({
       loop: true,
       direction: "alternate",
@@ -29,6 +31,7 @@ const SplashScreen = () => {
   return (
     <div className="splash-screen w-[100wh] h-[100vh] flex items-center justify-center">
       <svg
+        style={loaded ? { opacity: 1 } : { opacity: 0 }}
         xmlns="http://www.w3.org/2000/svg"
         width="100"
         height="100"

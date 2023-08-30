@@ -123,6 +123,7 @@ const Projects = () => {
               </div>
               <div className="links flex gap-5 items-center mt-3">
                 <a
+                  target="_blank"
                   href="https://github.com/ejtun91/mini-trello-clone-back"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
@@ -139,6 +140,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
+                  target="_blank"
                   href="https://mini-trello-clone-front-d4lfln0m1-ejtun91.vercel.app/"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
@@ -186,6 +188,7 @@ const Projects = () => {
               </div>
               <div className="links flex gap-5 items-center mt-3">
                 <a
+                  target="_blank"
                   href="https://github.com/ejtun91/webshopng-client"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
@@ -202,6 +205,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
+                  target="_blank"
                   href="https://claypotteryshop.com/"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
@@ -267,6 +271,7 @@ const Projects = () => {
               </div>
               <div className="links flex gap-5 items-center mt-3">
                 <a
+                  target="_blank"
                   href="https://github.com/ejtun91/reviewamovie"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
@@ -283,6 +288,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
+                  target="_blank"
                   href="https://reviewamovie.com/"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
@@ -343,6 +349,7 @@ const Projects = () => {
                     </svg>
                     <div className="links flex gap-5 items-center mt-3">
                       <a
+                        target="_blank"
                         href={project.links[0]}
                         className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                       >
@@ -359,6 +366,7 @@ const Projects = () => {
                         </svg>
                       </a>
                       <a
+                        target="_blank"
                         href={project.links[1]}
                         className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                       >

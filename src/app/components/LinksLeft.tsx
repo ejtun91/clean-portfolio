@@ -6,6 +6,7 @@ const LinksLeft = () => {
       <div className="links-container-wrapper flex flex-col items-center gap-4 pl-12">
         <div className="icon">
           <a
+            target="_blank"
             href="https://github.com/ejtun91"
             className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
           >
@@ -24,6 +25,7 @@ const LinksLeft = () => {
         </div>
         <div className="icon">
           <a
+            target="_blank"
             href="https://www.linkedin.com/in/antonio-k-479435228/"
             className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
           >
