@@ -104,7 +104,7 @@ const Projects = () => {
                 This is NgTableSculpt, an Angular component library for handling
                 large amounts of data. I created this out of pure necessity, as
                 I found myself using data tables frequently, and other libraries
-                were too limited and difficult to customize. It's for this
+                were too limited and difficult to customize. It&apos;s for this
                 reason that I wanted to share it with the public.
               </div>
               <div className="stack flex gap-4 text-sm text-gray-300">
