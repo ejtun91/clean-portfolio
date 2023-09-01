@@ -28,14 +28,15 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Path2Nowhere",
-      desc: "Blog App where I comment and make observations on the latest news in the world.",
-      stack: ["React", "Node"],
+      title: "Review A Movie",
+      desc: "This was one of my first projects, where I used 3rd party api for fetching movies and created backend for login in and making posts and comments for any video you like.",
+      stack: ["React", "Node", "Firebase", "MongoDB"],
       links: [
         "https://github.com/ejtun91/reviewamovie",
         "https://reviewamovie.com/",
       ],
     },
+
     {
       id: 4,
       title: "IT Web Stuff",
@@ -48,12 +49,12 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Book Hotel",
-      desc: "MERN app where I was curious about booking.com, and wanted to create similar app",
-      stack: ["React", "Node", "Stripe"],
+      title: "Path2Nowhere",
+      desc: "Blog App where I comment and make observations on the latest news in the world.",
+      stack: ["React", "Node"],
       links: [
-        "https://github.com/ejtun91/booking-hotels",
-        "https://github.com/ejtun91/booking-hotels",
+        "https://github.com/ejtun91/reviewamovie",
+        "https://reviewamovie.com/",
       ],
     },
     {
@@ -89,6 +90,63 @@ const Projects = () => {
           </div>
         </div>
         <div className="bottom flex w-full items-center flex-col gap-10 md:gap-28">
+          <div
+            className="row flex w-full items-center gap-10"
+            data-aos-easing="linear"
+            data-aos="fade-up"
+          >
+            <div className="right relative z-20 flex-[35%] bg-[#0c1f33ef] w-full md:bg-transparent p-5 items-start md:items-start justify-between h-full flex flex-col">
+              <span className="subtitle text-cyan-300 text-sm">
+                Featured Project
+              </span>
+              <h3 className="text-2xl text-gray-200">NgTableSculpt</h3>
+              <div className="desc  text-left text-gray-300 md:bg-[#112240] shadow-2xl md:text-base pl-0 md:pl-[inherit] text-sm p-4 rounded-md relative md:w-[140%] z-30 my-5">
+                This is NgTableSculpt, an Angular component library for handling
+                large amounts of data. I created this out of pure necessity, as
+                I found myself using data tables frequently, and other libraries
+                were too limited and difficult to customize. It's for this
+                reason that I wanted to share it with the public.
+              </div>
+              <div className="stack flex gap-4 text-sm text-gray-300">
+                <span>Angular</span>
+                <span>Typescript</span>
+                <span>Tailwind</span>
+              </div>
+              <div className="links flex gap-5 items-center mt-3">
+                <a
+                  target="_blank"
+                  href="https://www.npmjs.com/package/ng-table-sculpt"
+                  className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M14 9H3v20h20V18M18 4h10v10m0-10L14 18"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="left absolute z-10 mx-auto flex-[55%] md:h-[400px] h-[340px]  w-full md:relative">
+              <div className="overlay rounded-md absolute left-0 right-0 bottom-0 top-0 bg-[#67e8f961] z-10 cursor-pointer transition-all hover:bg-[transparent]"></div>
+              <Image
+                style={{ objectFit: "cover", objectPosition: "right" }}
+                src={"/ngtablesculpt.png"}
+                fill={true}
+                alt="Mini Trello Clone"
+                className="rounded-md"
+              />
+            </div>
+          </div>
           <div
             className="row flex w-full items-center gap-10"
             data-aos-easing="linear"
@@ -236,79 +294,6 @@ const Projects = () => {
                 alt="Mini Trello Clone"
                 className="rounded-md"
               />
-            </div>
-          </div>
-          <div
-            className="row flex w-full items-center gap-10"
-            data-aos-easing="linear"
-            data-aos="fade-up"
-          >
-            <div className="left absolute z-10 mx-auto flex-[55%] md:h-[400px] h-[320px]  w-full md:relative">
-              <div className="overlay rounded-md absolute left-0 right-0 bottom-0 top-0 bg-[#67e8f961] z-10 cursor-pointer transition-all hover:bg-[transparent]"></div>
-              <Image
-                style={{ objectFit: "cover" }}
-                src={"/proj3.png"}
-                fill={true}
-                alt="Mini Trello Clone"
-                className="rounded-md"
-              />
-            </div>
-            <div className="right relative z-20 flex-[35%] bg-[#0c1f33ef] w-full md:bg-transparent p-5 items-start md:items-end justify-between h-full flex flex-col">
-              <span className="subtitle text-cyan-300 text-sm">
-                Featured Project
-              </span>
-              <h3 className="text-2xl text-gray-200">Review A Movie</h3>
-              <div className="desc md:text-right text-left text-gray-300 md:bg-[#112240] shadow-2xl md:text-base pl-0 md:pl-[inherit] text-sm p-4 rounded-md relative md:w-[140%] z-30 my-5">
-                This was one of my first projects, where I used 3rd party api
-                for fetching movies and created backend for login in and making
-                posts and comments for any video you like.
-              </div>
-              <div className="stack flex gap-7 text-sm text-gray-300">
-                <span>React</span>
-                <span>Node</span>
-                <span>Firebase</span>
-                <span>MongoDB</span>
-              </div>
-              <div className="links flex gap-5 items-center mt-3">
-                <a
-                  target="_blank"
-                  href="https://github.com/ejtun91/reviewamovie"
-                  className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M5.884 18.653c-.3-.2-.558-.456-.86-.816a50.59 50.59 0 0 1-.466-.579c-.463-.575-.755-.841-1.056-.95a1 1 0 1 1 .675-1.882c.752.27 1.261.735 1.947 1.588c-.094-.117.34.427.433.539c.19.227.33.365.44.438c.204.137.588.196 1.15.14c.024-.382.094-.753.202-1.096c-2.968-.725-4.648-2.64-4.648-6.396c0-1.238.37-2.355 1.058-3.291c-.218-.894-.185-1.975.302-3.192a1 1 0 0 1 .63-.583c.081-.024.127-.034.208-.047c.803-.123 1.937.17 3.415 1.097a11.731 11.731 0 0 1 2.687-.308c.912 0 1.819.103 2.684.308c1.477-.933 2.614-1.227 3.422-1.097c.085.014.158.032.218.051a1 1 0 0 1 .616.58c.487 1.215.52 2.296.302 3.19c.691.936 1.058 2.045 1.058 3.292c0 3.758-1.674 5.666-4.642 6.393c.125.415.19.878.19 1.38c0 .664-.002 1.299-.007 2.01c0 .19-.002.394-.005.706a1 1 0 0 1-.018 1.957c-1.14.228-1.984-.532-1.984-1.524l.002-.447l.005-.705c.005-.707.008-1.338.008-1.997c0-.697-.184-1.152-.426-1.361c-.661-.57-.326-1.654.541-1.751c2.966-.334 4.336-1.483 4.336-4.66c0-.955-.312-1.745-.913-2.405a1 1 0 0 1-.189-1.044c.166-.415.236-.957.095-1.614l-.01.002c-.491.14-1.11.44-1.858.95a1 1 0 0 1-.833.135a9.626 9.626 0 0 0-2.592-.35c-.89 0-1.772.12-2.592.35a1 1 0 0 1-.829-.133c-.753-.507-1.374-.807-1.87-.947c-.143.653-.072 1.194.093 1.607a1 1 0 0 1-.189 1.044c-.597.656-.913 1.459-.913 2.404c0 3.172 1.371 4.33 4.322 4.66c.865.098 1.202 1.178.545 1.749c-.193.167-.43.732-.43 1.364v3.149c0 .986-.834 1.726-1.96 1.529a1 1 0 0 1-.04-1.963v-.99c-.91.062-1.661-.087-2.254-.484Z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  target="_blank"
-                  href="https://reviewamovie.com/"
-                  className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 32 32"
-                  >
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M14 9H3v20h20V18M18 4h10v10m0-10L14 18"
-                    />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
           <div className="other w-full mt-10">
