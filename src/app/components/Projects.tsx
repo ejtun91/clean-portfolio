@@ -115,7 +115,7 @@ const Projects = () => {
               <div className="links flex gap-5 items-center mt-3">
                 <a
                   target="_blank"
-                  href="https://www.npmjs.com/package/ng-table-sculpt"
+                  href="https://www.npmjs.com/package/ng-table-sculptor"
                   className="git hover:text-cyan-300 transition-all cursor-pointer text-gray-300"
                 >
                   <svg

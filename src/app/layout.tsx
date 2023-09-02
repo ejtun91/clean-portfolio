@@ -9,17 +9,35 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 export const metadata: Metadata = {
-  title: "Antonio Knezovic",
+  title: "Antonio Knezovic | Portfolio",
   description:
     "This is my portfolio website, where you can contact me and check my latest work.",
   icons: [
     {
       rel: "icon",
       type: "image/png",
-      sizes: "32x32",
       url: "/favicon.png",
     },
   ],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+  },
+  authors: [
+    {
+      name: "Antonio Knezovic",
+    },
+  ],
+  openGraph: {
+    type: "website",
+    url: "https://antonioknezovic.dev",
+    title: "Antonio Knezovic | Portfolio",
+    description:
+      "This is my portfolio website, where you can contact me and check my latest work.",
+    siteName: "Antonio Knezovic | Portfolio",
+    images: "https://antonioknezovic.dev/favicon.png",
+  },
 };
 
 export default function RootLayout({
