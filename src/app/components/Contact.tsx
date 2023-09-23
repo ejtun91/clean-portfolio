@@ -22,7 +22,7 @@ const Contact = () => {
         </p>
         <div className="message-container relative mt-10 text-center">
           <a
-            href="mailto:antonioknezovic1991@gmail.com"
+            href="mailto:antonio.knezovic1991@gmail.com"
             className="relative inline-flex items-center px-12 py-3 overflow-hidden text-sm font-medium text-cyan-300 border-2 border-cyan-300 rounded-md hover:text-white group hover:bg-gray-50"
           >
             <span className="absolute left-0 block w-full h-0 transition-all bg-cyan-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>

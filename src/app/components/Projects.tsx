@@ -53,8 +53,8 @@ const Projects = () => {
       desc: "Blog App where I comment and make observations on the latest news in the world.",
       stack: ["React", "Node"],
       links: [
-        "https://github.com/ejtun91/reviewamovie",
-        "https://reviewamovie.com/",
+        "https://github.com/ejtun91/path2nowhere",
+        "https://path2nowhere.com/",
       ],
     },
     {
