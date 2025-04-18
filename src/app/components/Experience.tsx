@@ -31,7 +31,7 @@ const Experience = () => {
         <div className="subtitle flex gap-2  items-center !w-[55%] justify-start !mr-auto">
           <span className="text-cyan-300 mr-2 text-xl self-end">01.</span>
           <span className="whitespace-nowrap text-2xl font-semibold text-gray-200">
-            Where I've worked
+            Where I&apos;ve worked
           </span>
           <div className="h-[1px] w-full bg-gray-700"></div>
         </div>
