@@ -12,7 +12,7 @@ const About = () => {
       <div className="about-wrapper items-center flex md:flex-row flex-col gap-20 justify-center container mx-auto lg:px-64 px-5">
         <div className="left flex-[60%] flex flex-col gap-10">
           <div className="subtitle flex gap-2  items-center">
-            <span className="text-cyan-300 mr-2 text-xl self-end">01.</span>
+            <span className="text-cyan-300 mr-2 text-xl self-end">02.</span>
             <span className="whitespace-nowrap text-2xl font-semibold text-gray-200">
               About Me
             </span>
@@ -27,9 +27,9 @@ const About = () => {
             </p>
             <p>
               Long story short, I am currently working as a Frontend Developer
-              for a company based in Dublin, and what I really like about this
-              role is creating meaningful connections between users and the
-              digital products they rely on.
+              for a company based in Zagreb, Croatia, and what I really like
+              about this role is creating meaningful connections between users
+              and the digital products they rely on.
             </p>
             <p>
               Some technologies I&apos;ve been working with for quite a while

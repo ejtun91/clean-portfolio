@@ -79,13 +79,24 @@ const Navbar = ({
           <div className="items flex md:flex-row flex-col items-center gap-6">
             <a
               onClick={() => setMenuOpen(false)}
-              href="#about"
+              href="#experience"
               data-aos-easing="linear"
               data-aos="fade-down"
               data-aos-duration="200"
               className="item flex md:flex-row flex-col items-center"
             >
               <span className="mr-2 text-cyan-300">01.</span>
+              <span>Experience</span>
+            </a>
+            <a
+              onClick={() => setMenuOpen(false)}
+              href="#about"
+              data-aos-easing="linear"
+              data-aos="fade-down"
+              data-aos-duration="200"
+              className="item flex md:flex-row flex-col items-center"
+            >
+              <span className="mr-2 text-cyan-300">02.</span>
               <span>About</span>
             </a>
             <a
@@ -96,7 +107,7 @@ const Navbar = ({
               href="#work"
               className="item flex md:flex-row flex-col items-center"
             >
-              <span className="mr-2 text-cyan-300">02.</span>
+              <span className="mr-2 text-cyan-300">03.</span>
               <span>Work</span>
             </a>
             <a
@@ -107,7 +118,7 @@ const Navbar = ({
               href="#contact"
               className="item flex md:flex-row flex-col items-center"
             >
-              <span className="mr-2 text-cyan-300">03.</span>
+              <span className="mr-2 text-cyan-300">04.</span>
               <span>Contact</span>
             </a>
           </div>

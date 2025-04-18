@@ -10,7 +10,7 @@ const Contact = () => {
     >
       <div className="contact-wrapper  items-center flex flex-col justify-center container mx-auto lg:px-72 px-5">
         <div className="span subtitle text-cyan-300 mb-3">
-          03. What&apos;s Next?
+          04. What&apos;s Next?
         </div>
         <h2 className="mb-6 text-5xl font-semibold text-gray-300">
           Get In Touch

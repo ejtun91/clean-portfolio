@@ -80,7 +80,7 @@ const Projects = () => {
           <div className="left md:w-[65%] w-full">
             <div className="subtitle flex gap-2  items-center">
               <span className="text-cyan-300 md:mr-2 mr-1 text-xl self-end">
-                02.
+                03.
               </span>
               <span className="whitespace-nowrap md:text-2xl text-xl font-semibold text-gray-200">
                 Things Done in Spare Time

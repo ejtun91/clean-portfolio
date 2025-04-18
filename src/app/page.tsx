@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import LinksLeft from "./components/LinksLeft";
 import LinksRight from "./components/LinksRight";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,6 +39,7 @@ export default function Home() {
           >
             {" "}
             <Jumbotron />
+            <Experience />
             <About />
             <Projects />
             <Contact />{" "}
